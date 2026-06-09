@@ -8,6 +8,10 @@ console.log(msg.slice(7)) //rld
 console.log(msg.slice(-2)) //ld 10-2 =>8
 console.log(msg.slice(-0)) //World 
 
-
+//replace
+// msg 
+// 'HelloWorld'
+// msg.replace("Hello", "Coding");
+// 'CodingWorld'
 
 
