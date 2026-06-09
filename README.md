@@ -19,12 +19,7 @@ A collection of my JavaScript practice, concepts, and mini projects while learni
 
 ## 📂 Projects Included
 
-- Calculator
-- Todo App
-- Digital Clock
-- Weather App
-- Counter App
-- Random Color Generator
+
 
 ## 🎯 Purpose
 
