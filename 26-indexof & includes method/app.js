@@ -24,20 +24,20 @@ let primary =  ["red", "yellow", "blue"];
 
 
 // concat : merge 2 array
-let secondary = ["orange", "green", "violet"];
+// let secondary = ["orange", "green", "violet"];
 
-primary.concat(secondary);
-(6) ['red', 'yellow', 'blue', 'orange', 'green', 'violet']
+// primary.concat(secondary);
+// (6) ['red', 'yellow', 'blue', 'orange', 'green', 'violet']
 
-secondary
-(3) ['orange', 'green', 'violet']
+// secondary
+// (3) ['orange', 'green', 'violet']
 
-primary
-(3) ['red', 'yellow', 'blue']
+// primary
+// (3) ['red', 'yellow', 'blue']
 
-secondary.concat(primary);
-(6) ['orange', 'green', 'violet', 'red', 'yellow', 'blue']
+// secondary.concat(primary);
+// (6) ['orange', 'green', 'violet', 'red', 'yellow', 'blue']
 
-//reverae: reverse an array
-primary.reverse();
-(3) ['blue', 'yellow', 'red']
+// //reverae: reverse an array
+// primary.reverse();
+// (3) ['blue', 'yellow', 'red']
