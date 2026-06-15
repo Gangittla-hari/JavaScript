@@ -1,0 +1,1 @@
+Q1. Create a nested array to show the following tic-tac-too game state.
