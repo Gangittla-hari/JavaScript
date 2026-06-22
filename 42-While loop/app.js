@@ -22,7 +22,15 @@ while (i <=20) {
 }
 
 //even numbers
-let i = 0
+let i = 0;
+
+while (i <=20) {
+    console.log(i);
+    i = i+2;
+}
+
+//odd numbers
+let i = 1;
 
 while (i <=20) {
     console.log(i);
