@@ -13,7 +13,7 @@
 let student = [ ["aman", 95], ["sradha",  67], ["hari",100] ];
   
 for(let i=0; i<student.length; i++) {
-    console.log(`info of student #${i}`);
+    console.log(`info of student #${i+1}`);
     for (let j=0; j<student[i]. length; j++) {
     console.log(student[i][j]);
    }
