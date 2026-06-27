@@ -5,7 +5,7 @@
 let students = ["roju", "hari", "krishna"];
 // (3) ['roju', 'hari', 'krishna']
 
-let info = ["roju", 23 , 89.0]; //mixed array
+// let info = ["roju", 23 , 89.0]; //mixed array
 
-//empty array
-let empArr = [];
+// //empty array
+// let empArr = [];
