@@ -18,7 +18,8 @@ A collection of my JavaScript practice, concepts, and mini projects while learni
 - JavaScript
 
 ## 📂 Projects Included
-
+- To Do APP
+- 
 
 
 ## 🎯 Purpose
