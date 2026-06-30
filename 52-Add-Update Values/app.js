@@ -26,5 +26,7 @@ const student = {
 // {name: 'Hari', age: '23', marks: '94.4', city: 'Mumbai', gender: 'Male'}
 // student.marks = "A"
 // 'A'
-// student
-// {name: 'Hari', age: '23', marks: 'A', city: 'Mumbai', gender: 'Male'}
+
+//output
+student
+{name: 'Hari', age: '23', marks: 'A', city: 'Mumbai', gender: 'Male'}
