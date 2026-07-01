@@ -1,21 +1,21 @@
-Math 
-Math {abs: ƒ, acos: ƒ, acosh: ƒ, asin: ƒ, asinh: ƒ, …}
-Properties -
-Math.PI
-Math.E
-Math.PI
-3.141592653589793
-Math.E
-2.718281828459045
+// Math 
+// Math {abs: ƒ, acos: ƒ, acosh: ƒ, asin: ƒ, asinh: ƒ, …}
+// Properties -
+// Math.PI
+// Math.E
+// Math.PI
+// 3.141592653589793
+// Math.E
+// 2.718281828459045
 
-Methods
-Math.abs
-Math.abs(12);
-12
-Math.abs(-12);
-12
-Math.abs(-12.3);
-12.3
+// Methods
+// Math.abs
+// Math.abs(12);
+// 12
+// Math.abs(-12);
+// 12
+// Math.abs(-12.3);
+// 12.3
 
 //Math.pow
 // Math.pow(12,3);
