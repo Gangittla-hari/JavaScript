@@ -1,6 +1,6 @@
 const max = prompt("enter the max number");
 
-const ramdom  = Math.floor(Math.random() * max) +1;
+const random  = Math.floor(Math.random() * max) +1;
 
 let guess = prompt("guess the number");
 
@@ -10,10 +10,10 @@ while(true){
         break;
 }
 
-if (guess == ramdom) {
+if (guess == random) {
     console.log("you win");
     break;
- } else if (guess < ramdom) {
+ } else if (guess < random) {
     guess = prompt("Hint : your guess was too small. please try again");
  } else {
     guess = prompt("Hint : your guess was too high. please try again");
