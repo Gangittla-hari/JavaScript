@@ -11,7 +11,7 @@ while(true){
 }
 
 if (guess == random) {
-    console.log("you win");
+    console.log(`🎉 You win! The number was ${random}`);
     break;
  } else if (guess < random) {
     guess = prompt("Hint : your guess was too small. please try again");
