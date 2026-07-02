@@ -16,7 +16,7 @@ const person = {
     name: "jhon",
     age: 30,
     city: "New jersey",
-};
+}; 
 
 person.country = "New York";
 person.country =  "United States";
