@@ -1,7 +1,7 @@
 function hello() {
     console.log("hello");
 }
-
+//fujction call
 hello();
 
 function printname() {
@@ -9,7 +9,7 @@ function printname() {
     console.log("Gangittla Krishna beni");
     console.log("Gangittla Hariprasad");
 }
-
+//function call
 printname();
 
 function print1to9() {
@@ -17,8 +17,9 @@ function print1to9() {
         console.log(i);
     }
 }
-
+//function call
 print1to9();
+
 
 function adult() {
     let age = 23;
@@ -28,11 +29,6 @@ function adult() {
         console.log("You are not an adult");
     }
 }
-
+//function call
 adult();
 
-function printpoem() {
-    console.log("Roses are red");
-}
-
-printpoem(); 
