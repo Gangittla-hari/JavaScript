@@ -7,6 +7,7 @@ function printpoem() {
     console.log("Like a diamond in the sky");
 }
 
+//Call the function to print the poem
 printpoem();
 
 //Create a Function to roll a dice & always display  the value of the dice (1 to 6) ?.
