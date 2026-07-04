@@ -34,19 +34,19 @@ function concat(str) {
 
 // function call in the console
 //output
-str
-(6) ['Gangittla', 'hariprasad', 'is', 'a', 'good', 'boy']
+// str
+// (6) ['Gangittla', 'hariprasad', 'is', 'a', 'good', 'boy']
 
-concat
-ƒ concat(str) {
-    let result="";
+// concat
+// ƒ concat(str) {
+//     let result="";
     
-    for(let i=0; i<str.length; i++) {
-        result += str[i];
-    }
-    return result;   
-}
+//     for(let i=0; i<str.length; i++) {
+//         result += str[i];
+//     }
+//     return result;   
+// }
 
-concat(str);
-'Gangittlahariprasadisagoodboy'
+// concat(str);
+// 'Gangittlahariprasadisagoodboy'
 
