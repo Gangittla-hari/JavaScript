@@ -8,6 +8,7 @@ calcAvg(2, 4, 6);
 
 output: 4
 
+
 //Q2. Create a function that prints the multiplication table of a number ?.
 function printtable(n) {
     for (let i=n; i<=n*10; i+=n) {
@@ -15,3 +16,4 @@ function printtable(n) {
     }
 }
 printtable(5);
+
