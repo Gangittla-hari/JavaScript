@@ -7,3 +7,14 @@ function getSum (n) {
     }
     return sum;
 }
+
+//function call in the console
+//output
+getSum(4)
+10
+getSum(3)
+6
+getSum(2)
+3
+getSum(5)
+15
