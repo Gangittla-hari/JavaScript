@@ -1,3 +1,5 @@
+//Variables declared inside  a () block cannot be accessed from outside the block.
+
 {
     let a = 24;
 }
