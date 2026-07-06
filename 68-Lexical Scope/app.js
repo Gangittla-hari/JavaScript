@@ -7,3 +7,4 @@ function outerFunc() {
     }
     innerFunc(); //call 
 
+}
