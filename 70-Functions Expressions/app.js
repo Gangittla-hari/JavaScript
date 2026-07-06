@@ -1,4 +1,5 @@
 let name = "hari";
+let x = 5;
 
 let sum = function(a, b) {
     return a+b;
@@ -11,3 +12,4 @@ let hello = function() {
 hello = function() {
     console.log("namaste");
 }
+
