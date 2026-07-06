@@ -7,3 +7,7 @@ let sum = function(a, b) {
 let hello = function() {
     console.log("hello");
 }
+
+hello = function() {
+    console.log("namaste");
+}
