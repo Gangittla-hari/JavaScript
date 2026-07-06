@@ -1,3 +1,4 @@
+//Q1. what will be the output ?.
 let greet = "hello";  //Global scope
 
 function changeGreet() {
@@ -10,5 +11,12 @@ function changeGreet() {
     innerGreet();
 }
 
-console.log(greet);
+// call function 
+console.log(greet); 
 changeGreet();
+
+
+//output 
+hello
+namaste
+namaste
