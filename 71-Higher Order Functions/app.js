@@ -8,24 +8,15 @@ let greet = function() {
     console.log("hello");
 }
 
-// greet(); //call function
-// greet();
-// greet();
 
-// multipleGreet(greet,5); //call function
-multipleGreet(function() {console.log("namste")}, 5); //call function
-
-
-
-
-//output 
-//greet();
-hello
+greet();  // call function 
+//output
+hello 
 hello
 hello
 
-//multipleGreet(greet,5); 
-5hello
+multipleGreet(greet,5); //call  function
+5 hello //output
 
-//multipleGreet(function() {console.log("namste")}, 5);
-5namste
+multipleGreet(function() {console.log("namste")}, 5); //call  functon 
+5 namste //output
