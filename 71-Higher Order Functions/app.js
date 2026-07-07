@@ -9,7 +9,7 @@ let greet = function() {
 }
 
 
-greet();  // call function 
+greet(); // call function 
 //output
 hello 
 hello
