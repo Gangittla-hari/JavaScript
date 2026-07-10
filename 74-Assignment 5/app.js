@@ -28,21 +28,40 @@
 
 
 //Ans 2.
-let str = "abcdabcdefgggh";
+// let str = "abcdabcdefgggh";
 
-//function to get String with all unique elements
-function getUnique (str) {
-let ans = "";
-for (let i=0; i< str.length; i++) {
-    let currChar = str[i];
-    if (ans.indexOf(currChar) == -1) {
-        //if current character is not added, then add it in ans.
-        //Otherwise it is a duplicate.
-        ans += currChar;
+// //function to get String with all unique elements
+// function getUnique (str) {
+// let ans = "";
+// for (let i=0; i< str.length; i++) {
+//     let currChar = str[i];
+//     if (ans.indexOf(currChar) == -1) {
+//         //if current character is not added, then add it in ans.
+//         //Otherwise it is a duplicate.
+//         ans += currChar;
+//     }
+// }
+// return ans;
+// }
+
+// getUnique(str);
+//output is 'abcdefgh'
+
+
+
+//Ans 3
+let country = ["Asutralia", "Germany", "United States of America"];
+
+function  longestName(country) {
+    let ansIdx = 0;
+    for (let i = 0; i < country.length; i++) {
+        let ansLen =  country[ansIdx].length;
+        let currLen = country[i].length;
+        if (currLen > ansLen) {
+            ansIdx = i;
+        }
     }
+    return country[ansIdx];
 }
-return ans;
-}
-
-getUnique(str);
-
+longestName(country);
+//output is 'United States of America'
