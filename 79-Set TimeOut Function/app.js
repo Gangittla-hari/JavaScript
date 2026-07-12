@@ -8,6 +8,6 @@ console.log("Welcome");
 
 
 //output
-Hi there!
-Welcome
-Apna Collage //4s ke bad a line run hoga
+// Hi there!
+// Welcome
+// Apna Collage //4s ke bad a line run hoga
