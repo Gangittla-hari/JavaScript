@@ -1,10 +1,17 @@
 //Ans 1
-const arrayAverage = (arr) => {
-    let total = 0;
-    for (let  number  of  arr) {
-        total += number;
-    }
-    return total / arr.length;
-};
- let arr = [1,2,3,4,5,6];
- console.log(arrayAverage (arr));
+// const arrayAverage = (arr) => {
+//     let total = 0;
+//     for (let  number  of  arr) {
+//         total += number;
+//     }
+//     return total / arr.length;
+// };
+//  let arr = [1,2,3,4,5,6];
+//  console.log(arrayAverage (arr));     //output is 3.5
+
+
+
+//Ans 2
+// let num = 4;
+ 
+// const isEven = (num) => num % 2 == 0;
