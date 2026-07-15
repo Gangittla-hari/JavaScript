@@ -11,5 +11,4 @@ console.log(finalVal);
 // 10 is finalValue
 
 
-Finding Maximum in an array 
 
