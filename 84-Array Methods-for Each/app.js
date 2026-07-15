@@ -43,4 +43,3 @@ arr.forEach((student)=> {
    console.log(student.marks);
 });
 
-
