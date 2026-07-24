@@ -6,6 +6,7 @@ let names = ["tony","bruce","peter","steve","hi","lio"];
 let [winner,runnerup,...others] = names;    
 
 //output
+
 // winner
 // 'tony'
 // runnerup
