@@ -15,7 +15,6 @@ for(let i=0; i<smallImages.length; i++) {              //output -> Har image ka 
 
 
 //Query Selectors
-
 console.dir(document.querySelector("h1")); //output h1 
 
 console.dir(document.querySelector("#description")); //p#description
@@ -24,8 +23,8 @@ console.dir(document.querySelector(".oldImg"));  //img.oldImg
 
 console.dir(document.querySelector("div a"));  //a.boxLink  - Selecting an <a> Tag Inside a <div> Element
 
-
 console.dir(document.querySelectorAll("div a"));  //Selecting an all <a> Tag Inside a <div> Element
+
 //output 
 // NodeList(4)
 // 0: a.boxLink
