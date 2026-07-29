@@ -2,15 +2,15 @@
 
 let smallImages = document.getElementsByClassName("oldImg");
 
-// for(let i=0; i<smallImages.length; i++) {              //output -> Sirf image ka current src dekhkar print karta hai.
-//     console.log(smallImages[i].src);
-// }
+for(let i=0; i<smallImages.length; i++) {              //output -> Sirf image ka current src dekhkar print karta hai.
+    console.log(smallImages[i].src);
+}
 
 // EX 2.
-for(let i=0; i<smallImages.length; i++) {              //output -> Har image ka src change kar deta hai.
-    smallImages[i].src = "spiderman_img.png";          //Console mein message bhi print karta hai.
-    console.log(`value of image no. ${i} is changed.`);
-}
+// for(let i=0; i<smallImages.length; i++) {              //output -> Har image ka src change kar deta hai.
+//     smallImages[i].src = "spiderman_img.png";          //Console mein message bhi print karta hai.
+//     console.log(`value of image no. ${i} is changed.`);
+// }
 
 
 
@@ -33,3 +33,14 @@ console.dir(document.querySelectorAll("div a"));  //Selecting an all <a> Tag Ins
 // // 3: a.boxLink
 // // length: 4
 // // [[Prototype]]: NodeList
+
+
+//Manipuleting style
+let links = document.querySelectorAll(".box a");
+
+for (links  of links) {
+    links.style.color = "red"; //inline style
+}
+// for(let i=0; i<links.length; i++) {
+//     links[i].style.color = "red";
+// }
