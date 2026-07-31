@@ -1,8 +1,12 @@
 //Add the following elements to the  container using only javascript and the DOM methods.
 //1. a <p> with red text says "hey i'm red!"
 //2. an <h3> with blue text that says "i'm a blue h3!"
-//3. a <div> with a  black border and pink
+//3. a <div> with a  black border and pink.
+//- another <h1> that says "i'm in a div"
+//- a <p> that says "   ME TOO!"
 
+
+//Ans 1.
 let para1 = document.createElement("p");
 para1.innerText = "Hey I'm red!";
 document.querySelector("body").append(para1);
@@ -21,13 +25,13 @@ h3.classList.add("blue");
 //ans3.
 let div = document.createElement("div");
 let h1 = document.createElement("h1");
-let para2 = document.createElement("p");
+let para2 = document.createElement("p");         
 
-h1.innerText = "I'm in a div";
-para2.innerText = "ME TOO!";
+h1.innerText = "I'm in a div"; 
+para2.innerText = "ME TOO!";  
 
-div.append(h1);
-div.append(para2);
-div.classList.add("box");
-
-document.querySelector("body").append(div);
+div   .append(h1);                                 
+div.append(para2);                          
+div.classList.add("box");                    
+                                            
+document.querySelector("body").append(div); 
