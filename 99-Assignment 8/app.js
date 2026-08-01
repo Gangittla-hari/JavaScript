@@ -6,7 +6,6 @@ button.innerText = "Click me";
 document.querySelector("body").append(input);
 document.querySelector("body").append(button);
 
-
 //Ans 2.
 button.setAttribute("id, btn");
 input.setAttribute("placeholder", "username");
