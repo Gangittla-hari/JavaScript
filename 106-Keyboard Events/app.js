@@ -39,9 +39,9 @@ let input = document.querySelector("input");
 
 input.addEventListener("keydown", function(event) {
     console.log("code = ", event.code); //ArrowUp, ArrowDown, ArrowLeft, ArrowRight
-    if (event.key == "ArrowUp") {
+    if (event.code == "ArrowUp") {
         console.log("character moved forward");
-    } else if (event.key === "ArrowDown") {
+    } else if (event.code == "ArrowDown") {
         console.log("character moved backward");
     } else if (event.code == "ArrowLeft") {
         console.log("character moved left");
