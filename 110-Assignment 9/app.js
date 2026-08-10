@@ -35,6 +35,12 @@
 
 
 //Scroll
-window.addEventListener("scroll", function() {
-    console.log("Page is scrolling")
-})
+// window.addEventListener("scroll", function() {
+//     console.log("Page is scrolling")
+// })
+
+
+//load
+window.addEventListener("load", function() {
+    console.log("Page loaded successfully!");
+});
