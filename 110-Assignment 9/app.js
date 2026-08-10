@@ -17,7 +17,7 @@
 //     }, 500);
 // });
 
-
+//Ans 1.
 //Mouseout 2
 // let box = document.querySelector("#box");
 
@@ -41,6 +41,16 @@
 
 
 //load
-window.addEventListener("load", function() {
-    console.log("Page loaded successfully!");
+// window.addEventListener("load", function() {
+//     console.log("Page loaded successfully!");
+// });
+
+//Ans 2.
+let btn = document.createElement("button");
+
+btn.innerText = "click me";
+document.querySelector("body").append(btn);
+
+btn.addEventListener("click", function() {
+    btn.style.backgroundColor = "green";
 });
