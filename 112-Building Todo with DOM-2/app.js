@@ -21,6 +21,8 @@ for(delBtn of delBtns) {
        let par = this.parentElement;
        console.log(par);
        par.remove();
-    }); 
+    });
 }
+
+
 
