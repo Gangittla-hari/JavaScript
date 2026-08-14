@@ -51,6 +51,7 @@ function checkAns() {
 
 
 function btnPress() {
+
    console.log(this);
    let btn = this;
    userFlash(btn);
