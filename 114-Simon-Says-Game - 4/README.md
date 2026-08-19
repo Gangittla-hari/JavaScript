@@ -8,18 +8,22 @@ The game generates a random sequence of colors, and the player has to remember a
 
 Open the index.html file in your browser to play the game.
 
-📌 Features
-🎯 Random color sequence generation
-🧠 Tests the player's memory
-📈 Level increases after every correct sequence
-✨ Button flash animation
-🖱️ Mouse click interaction
-💥 Game Over screen when the sequence is incorrect
-🔄 Game can be restarted by pressing any key
-🛠️ Technologies Used
-HTML5 – Structure of the game
-CSS3 – Styling and animations
-JavaScript – Game logic and user interaction
+## 📌 Features
+
+- 🎯 Random color sequence generation
+- 🧠 Tests the player's memory
+- 📈 Level increases after every correct sequence
+- ✨ Button flash animation
+- 🖱️ Mouse click interaction
+- 💥 Game Over when the sequence is incorrect
+- 🔄 Game can be restarted by pressing any key
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Structure of the game
+- **CSS3** – Styling and animations
+- **JavaScript** – Game logic and user interaction
+
 📂 Project Structure
 Simon-Says-Game/
 │
