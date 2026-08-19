@@ -91,8 +91,7 @@ Step 3: Run the game
 Open index.html in any modern web browser.
 
 👨‍💻 Author
-
-Your Name
+Gangittla Hari Prasad
 
 Made with ❤️ using HTML, CSS & JavaScript.
 
