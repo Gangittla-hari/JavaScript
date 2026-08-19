@@ -69,8 +69,8 @@ Button	Color
 🟠	Yellow
 🟣	Purple
 🔵	Green
-📸 Game Preview
 
+📸 Game Preview
 The game provides a simple 2×2 button layout where each button represents a different color.
 
 💻 Installation & Setup
@@ -81,16 +81,14 @@ Step 1: Clone the repository
 git clone <your-repository-url>
 
 Step 2: Open the project
-
 Navigate to the project folder:
-
 cd Simon-Says-Game
 
 Step 3: Run the game
-
 Open index.html in any modern web browser.
 
 👨‍💻 Author
+
 Gangittla Hari Prasad
 
 Made with ❤️ using HTML, CSS & JavaScript.
