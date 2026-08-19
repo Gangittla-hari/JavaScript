@@ -37,6 +37,13 @@ In the next level, remember the previous sequence and click the new sequence in 
 Continue playing as long as you remember the sequence correctly.
 If you click the wrong button, the game is over.
 Press any key to start a new game.
+
+📸 Game Preview
+
+![Simon Says Game Preview](screenshot.png)
+
+The game provides a simple 2×2 button layout where each button represents a different color.
+
 🧩 Game Logic
 
 The game maintains two arrays:
