@@ -75,10 +75,14 @@ The game contains four buttons:
 ## 📸 Game Preview
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ![Simon Says Game Preview](Screenshot.png)
 =======
 ![Simon Says Game Preview](screenshot.png)
 >>>>>>> 9643611 (added code)
+=======
+![Simon Says Game Preview](Screenshot.png)
+>>>>>>> c61ba20 (update README.md)
 
 The game provides a simple **2×2 button layout**, where each button represents a different color.
 
