@@ -74,8 +74,7 @@ The game contains four buttons:
 
 ## 📸 Game Preview
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 ![Simon Says Game Preview](Screenshot.png)
 =======
 ![Simon Says Game Preview](screenshot.png)
