@@ -1,20 +1,18 @@
-function one() {
-    return 1;
-}
+// let a = 25;
+// console.log(a);
+// let b = 10;
+// console.log(b);
+// console.log(a+b);
 
-function two() {
-    return one() + one();
-}
+//synchrous nature
 
-function three() {
-    let ans = two() + one();
-    console.log(ans);
-}
+setTimeout(()=> {    
+    console.log("apna college");
+}, 2000);
+setTimeout(()=> {
+    console.log("hello world");
+}, 2000);
 
-three();                    
+console.log("hello...");
 
-
-
-
-
-        
+//asynchronous 
