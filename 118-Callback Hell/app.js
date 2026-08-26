@@ -26,3 +26,5 @@ changecolor("red", 1000, () => {
 // changeColor("red", 1000);
 // changeColor("orange", 2000);
 // changeColor("green", 3000);
+
+
