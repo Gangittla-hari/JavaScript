@@ -9,12 +9,10 @@ function savetoDb(data) {
   });
 }
 
-let request = savetoDb("apna college"); //req = promise object
-request.then(() => {
+savetoDb("apna college") //req = promise object
+  .then(() => {
     console.log("promise was resolved");
-    console.log(request);
 })
-.catch(() => {
+  .catch(() => {
     console.log("promise was rejected");
-    console.log(request);
 });
