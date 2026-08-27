@@ -8,3 +8,6 @@ function savetoDb(data) {
     }
   });
 }
+
+let request = savetoDb("apna college"); //req = promise object
+console.log
