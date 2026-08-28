@@ -9,6 +9,7 @@ function changeColor(color, delay) {
   });
 }
 
+
 changeColor("red", 1000)
 .then(() => {
     console.log("red color was completed");
@@ -25,6 +26,7 @@ changeColor("red", 1000)
 .then(() => {
     console.log("blue was completed");
 })
+
 
 // changecolor("red", 1000, () => {
 //     changecolor("orange", 1000, () => {
