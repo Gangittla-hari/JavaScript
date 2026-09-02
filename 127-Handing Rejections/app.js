@@ -27,7 +27,7 @@ try {
     console.log(err);
 }
 
-    let a = 5;
+    let a = 2;
     console.log(a);
     console.log("new number = ", a + 3);                            
 }
