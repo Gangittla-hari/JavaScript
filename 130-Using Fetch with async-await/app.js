@@ -12,6 +12,6 @@ async function getFacts() {
     } catch(err) {
         console.log("error -", err);
     }
-
+    console.log("End of function");
 }
 //API call
