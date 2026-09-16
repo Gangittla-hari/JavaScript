@@ -1,3 +1,6 @@
+// Q. Using the Hipo University API, create a webpage that allows the user to search and display colleges/universities located in different states of India, such as Odisha, Andhra Pradesh, Tamil Nadu, etc.
+
+
 let url = "http://universities.hipolabs.com/search?country=India";
 
 let btn = document.querySelector("button");
